@@ -1,0 +1,6 @@
+sensor_msgs/Image RGBImage
+sensor_msgs/Image DepthImage
+sensor_msgs/PointCloud2 Points
+
+---
+grasp_detection_msgs/Grasp[] results
