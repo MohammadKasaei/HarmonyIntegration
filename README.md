@@ -50,6 +50,9 @@
 catkin build & catkin_make
 
 source devel/setup.bash
+
+# Download pre-trained weight of SSG and put the .pth file in the pretraned-models folder
+https://drive.google.com/file/d/1rbdNy0XShpLbQG5aLZEnngefQhmFbmOQ/view?usp=sharing
 ```
 
 
