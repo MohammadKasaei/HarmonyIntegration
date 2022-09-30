@@ -1,0 +1,11 @@
+<!-- -->
+<!-- Decomrpress topic from rosbag, generate point cloud from depth image -->
+<launch>
+
+    <node name="compress_to_raw" pkg="depthImage_to_PointCloud" type="compress_to_raw.py" output="screen" />
+
+    <node name="generate_pointcloud" pkg="depthImage_to_PointCloud" type="depthImage_to_PointCloud" output="screen" />
+
+</launch>
+
+<!-- -->
